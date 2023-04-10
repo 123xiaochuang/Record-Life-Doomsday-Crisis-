@@ -1,0 +1,113 @@
+[
+  {
+    "uid": "Shelter",
+    "header": "庇护所",
+    "tech_description": "建造庇护所所需的技术",
+    "icon": 0,
+    "bgimg": "",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "Shelter01",
+          "lane": 1,
+          "depth": 1,
+          "header": "庇护所基础建筑",
+          "tech_description": "技能要求：建筑师1级；解锁一些建造庇护所所需的基础建筑",
+          "bigNode": false,
+          "bgimg": "",
+          "parents": [],
+          "neededParents": 0,
+          "levelRequirement": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 0,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [
+              {
+                "id": 5,
+                "value": true
+              }
+            ],
+            "skills": [],
+            "commonevents": [
+              {
+                "id": 5,
+                "close": false
+              }
+            ],
+            "stats": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "eval": {
+              "onActivate": "",
+              "onDeactivate": ""
+            }
+          }
+        }
+      },
+      {
+        "technode": {
+          "uid": "Shelter02",
+          "lane": 1,
+          "depth": 2,
+          "header": "Holy Saint",
+          "tech_description": "Triggers the common event 6 as soon as you unlock it.",
+          "bigNode": false,
+          "parents": [
+            {
+              "parent": "Shelter01"
+            }
+          ],
+          "neededParents": 1,
+          "levelRequirement": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 0,
+            "jp": 200,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [],
+            "commonevents": [],
+            "stats": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "eval": {
+              "onActivate": "",
+              "onDeactivate": ""
+            }
+          }
+        }
+      }
+    ],
+    "hideGoldCost": true,
+    "hideJPCost": true,
+    "costItems": []
+  }
+]

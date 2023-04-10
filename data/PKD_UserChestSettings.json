@@ -1,0 +1,15 @@
+{
+    "position": [
+        "(Graphics.width / 2) - 124",
+        "(Graphics.height / 2) - 160"
+    ],
+    "visible": true,
+    "openChestSE": null,
+    "icon": "inventoryIconStorage",
+    "iconMarginX": 36,
+    "iconMarginY": 36,
+    "categoryButtonsMarginX": 88,
+    "categoryButtonsMarginY": 17,
+    "putInHelpText": "放到箱子里",
+    "isLinkedCategories": true
+}
